@@ -1,20 +1,14 @@
 Author: JT Kashuba
 
-Group: TBD
+Developers: JT Kashuba, Noah Kruss, Logan Levitre, Zeke Petersen, River Veek
 
-Members: JT Kashuba, Noah Kruss, Logan Levitre, Zeke Petersen, River Veek
-
-Last Modified: 3/10/21
-
-# CIS 422 - Project 2
-# Four-Year Plan Tracker
+# CS Degree Guide
 
 ## System Description
 
 This system is a web application that provides functionality for processing, projecting,
-and visualizing a Four-Year Plan for CIS Majors at UO. Ultimately this system can be
-modularized to include all degree paths at UO, and theoretically any university (given
-the time and resources to maintain this scale of implementation)
+and visualizing a 4-year plan for CS Majors at UO. This system can be
+modularized to include all degree paths at UO, and ultimately any university
 
 # Getting Started
 
@@ -44,12 +38,12 @@ Refer to User_Instructions.pdf
     * CIS_degree.py - A file containing the instantiated degree object containing all courses specific to the CIS Major
     * Gen_Ed.py - A file containing the instantiated degree object containing all general education courses
     * degree_objects.py - A file containing the definitions of the Degree, Course, and Term class objects
-    * degree_planning.py - A file containing the functions used to generate a Four-Year Plan
+    * degree_planning.py - A file containing the functions used to generate a 4-year plan
     * student_objects.py - A file containing the definition of the Student class object
 * documentation - A directory containing the following pieces of documentation
     * Agenda_MtgNotes.pdf - Documentation of Team TBD meeting agendas
     * Programmer_Documentation.pdf - Programmer Documentation for the entire system
-    * Project_Plan.pdf - Team TBD's Four-Year Plan Tracker Project Plan presented as a 3-Page-Summary
+    * Project_Plan.pdf - Team TBD's CS Degree Guide Project Plan presented as a 3-Page-Summary
     * SDS.pdf - Software Design Specification
     * SRS.pdf - Software Requirements Specification
     * TeamTBD.pdf - Documentation of Team TBD's progress in Excel format, tracked hours of work - organized by week
@@ -61,7 +55,7 @@ Refer to User_Instructions.pdf
     * js - As mentioned above, Flask will default to looking in /static/js for all .js files
         * ui.js - A file containing the js for the website's UI
 * templates - Flask looks for the /templates/ directory by default as the location where html files are stored
-    * forecast.html - A file containing the html that displays on the webpage after the user clicks "Save & Display" to view their unique Four-Year Plan
+    * forecast.html - A file containing the html that displays on the webpage after the user clicks "Save & Display" to view their unique 4-year plan
     * ui.html - A file containing the landing page html
 * testing - nosetests looks for the /testing/ directory by default as the location where files used for nosetests are stored
     * test_degree_objects.py - A file containing the nosetests to test the Degree object
@@ -70,7 +64,7 @@ Refer to User_Instructions.pdf
 * Dockerfile - A standard Dockerfile used to build a docker container
 * Installation_Instructions.pdf - Document that provides the User instructions on how to install the system in this repository
 * README.md - A brief overview of how to get started using this repo & the system therein
-* User_Instructions.pdf - Document that provides the User a step-by-step walkthrough of how to use the Four-Year Plan Tracker application
+* User_Instructions.pdf - Document that provides the User a step-by-step walkthrough of how to use the CS Degree Guide application
 * app.py - A file containing the Flask routing and back end logic that populates the front end UI
 * pickling.py - A file for saving and loading pickle objects
 * requirements.txt - Document that denotes what libraries need to be imported by the user for the project to work (the user will not need to perform extra actions to import these libraries, building the docker container will automatically import the libraries contained in requirements.txt)
